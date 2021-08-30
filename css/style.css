@@ -455,7 +455,7 @@ body {
 .navbar-icons {
   position: absolute;
   top: 60%;
-  right: 0;
+  right: 100px;
   transform: translate(0, -50%);
   padding: 15px;
   display: flex;
@@ -1327,6 +1327,7 @@ body {
     width: 300px;
   }
   .navbar-icons {
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     height: 100%;
