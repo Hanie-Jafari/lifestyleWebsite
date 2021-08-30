@@ -28,7 +28,6 @@ $(function () {
     }
   });
   // show & hide the search box
-
   $(".nav > .navbar > li:nth-child(4)").on("click", function (e) {
     e.preventDefault();
     var clicks = $(this).data("clicks");
